@@ -68,6 +68,11 @@ export default function HomeScreen() {
       <Link href="/novo" style={styles.botaoAdicionar}>
         <Text style={styles.textoBotao}>Adicionar Contato</Text>
       </Link>
+      <Link href={styles.botaoEditar}>
+      <Text style = {
+        {color: "white",
+          marginTop: 5}
+              }> Detalhes </Text>
     </View>
   );
 }

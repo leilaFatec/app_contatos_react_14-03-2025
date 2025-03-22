@@ -1,12 +1,10 @@
 import React from "react";
-import { Contato } from "../services/contatos";
+import { Contato } from "../../services/contatos";
 import { View, Text } from "react-native";
-import styles from "../estilos/main";
-
+import styles from "../../estilos/main";
+import { useLocalSearchParams } from ExpoRouter;
+import { useExpoRouter } from "expo-router/build/global-state/router-store";
 // incluir na navegação da lista
-
-
-
 
 
 const Detalhes: React.FC<Contato> = (contato) => {
